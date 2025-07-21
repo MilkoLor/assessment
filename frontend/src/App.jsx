@@ -4,7 +4,7 @@ import SummaryPanel from "./components/SummaryPanel";
 import axios from "axios";
 
 // Backend base URL (adjust if needed)
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://ad-insights-explorer.onrender.com";
 
 export default function App() {
   const [anomalies, setAnomalies] = useState([]);
