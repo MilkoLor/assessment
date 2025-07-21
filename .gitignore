@@ -1,0 +1,33 @@
+# Python
+venv/
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI
+.env
+
+# VSCode
+.vscode/
+
+# Frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.DS_Store
+/frontend/.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+coverage/
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*.swo
